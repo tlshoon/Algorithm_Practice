@@ -1252,3 +1252,17 @@
 #
 #     last_maxvalue = max(last_value, max_value)
 #     print(last_maxvalue)
+
+# 10814번
+# n = int(input())
+# members = []
+#
+# for _ in range(n):
+#     age, name = input().split()
+#     age = int(age)
+#     members.append((age, name))
+#
+# sorted_members = sorted(members, key=lambda x:x[0])
+#
+# for member in sorted_members:
+#     print(member[0], member[1])
