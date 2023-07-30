@@ -1266,3 +1266,19 @@
 #
 # for member in sorted_members:
 #     print(member[0], member[1])
+
+# 7785번
+# n = int(input())
+# data = set()
+#
+# for _ in range(n):
+#     name, record = input().split()
+#     if (record == 'enter'):
+#         data.add(name)
+#     else:
+#         data.remove(name)
+#
+# sorted_data = sorted(data, reverse=True)
+#
+# for data in sorted_data:
+#     print(data)
